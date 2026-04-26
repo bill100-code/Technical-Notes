@@ -12,3 +12,16 @@
 origin是远程仓库的名字，而main是本地仓库的分支名
 意思是把本地分支main推送给别名为origin的远程仓库，并建立跟踪关系
 -u 意思是set upstream 建立跟踪关系，如果不建立关系,直接写git push 就会报错
+
+此外还学习了一些快捷键
+win+R 快速打开任务管理器
+win+X+U+U 关机
+win+L 锁屏
+ctrl+tap 切网页
+win+tap 上换桌面，展示运行应用
+alt+tap 快速切应用
+
+notepad 编辑文本文件
+dir 查看当前目录内容
+echo 创建文本文档 echo <content> ><filename> 创建新文档（同名则替换）并写上内容
+echo <content> >><filename> 追加内容
