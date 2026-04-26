@@ -1,1 +1,14 @@
-ECHO 处于打开状态。
+#4.26技术笔记
+
+今天系统学习了git工具的基本使用
+使用git工具分为以下几个步骤：
+
+1.创建Git仓库，如果是使用别人的仓库则用git clone 克隆仓库；反之则用git init 创建自己的仓库
+2.将仓库内容置于缓存区，用于后续我上传。git add . 将当前路径下的内容上传至缓存区
+3.添加注释 git commit -m "<content>"
+4. 给远程仓库起别名  git remote add origin +网址
+你要上传自己的仓库，一定要指定上传的位置才可以。origin 是引用名称，默认使用这个代表仓库。网址从GitHub 上面找即可。git remote add是 配置 命令，用来告诉本地仓库“远程仓库的网址和名字”。
+5.git push -u origin main
+origin是远程仓库的名字，而main是本地仓库的分支名
+意思是把本地分支main推送给别名为origin的远程仓库，并建立跟踪关系
+-u 意思是set upstream 建立跟踪关系，如果不建立关系,直接写git push 就会报错
